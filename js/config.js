@@ -1,24 +1,13 @@
 const ExplorerConfig = {
-  apiBaseUrl: 'https://blockapi.turtlepay.io',
-  poolApiUrl: 'https://poolapi.turtlepay.io/',
-  poolListUrl: 'https://raw.githubusercontent.com/turtlecoin/turtlecoin-pools-json/master/v2/turtlecoin-pools.json',
-  ticker: 'TRTL',
-  maxSupply: 100000000000000,
-  decimalPoints: 2,
-  blockTargetTime: 30,
-  addressPrefix: 3914525,
+  apiBaseUrl: 'http://127.0.0.1',
+  poolApiUrl: 'http://127.0.0.1',
+  poolListUrl: 'https://raw.githubusercontent.com/bitcoinmono/bitcoinmono-pools-json/master/v2/turtlecoin-pools.json',
+  ticker: 'BTCM',
+  maxSupply: 10000000000000000,
+  decimalPoints: 4,
+  blockTargetTime: 50,
+  addressPrefix: 3771344,
   forkHeights: [
-    187000,
-    350000,
-    440000,
-    620000,
-    700000,
-    800000,
-    1000000,
-    1200000,
-    1400000,
-    1600000,
-    1800000,
-    2000000,
+    10000000
   ]
 }
